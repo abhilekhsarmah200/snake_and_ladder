@@ -1,0 +1,29 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../logo.jpg);
+    background-size: cover;
+    height:120vh;
+    background-position: center;
+}
+ul{
+float: right;
+list-style-type: none;
+margin-top:15px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color:white;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.8s ease;
+}
+ul li a:hover{
+background-color: white;
+color:blue;
+}
+ul li.active a{
+background-color: white;
+color: blue;
+}

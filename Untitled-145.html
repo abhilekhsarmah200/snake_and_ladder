@@ -1,0 +1,66 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Images</title>
+<style type="text/css">
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin:0;
+    left: 0;
+    animation: 25s  slider infinite linear;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }        
+    25%{
+        left: -100%;
+    }        
+    45%{
+        left: -200%;
+    }        
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -300%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -400%;
+    }
+    100%{
+        left:-400%;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="slider">
+        <figure>
+               <a href="images/br/1.jpg.html"> <img src="images/br/1.jpg"></a>
+                <img src="images/br/2.jpg">
+                <img src="images/br/4.jpg">
+                <img src="images/br/5.jpg">
+                <img src="images/br/1.jpg">
+        </figure>
+</div>
+ 
+</body>

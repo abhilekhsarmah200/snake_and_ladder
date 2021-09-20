@@ -1,0 +1,135 @@
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top:15px;
+    }
+    ul li{
+    display: inline-block;
+    }
+    ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    }
+    ul li a:hover{
+    background-color: white;
+    color:blue;
+    }
+    ul li.active a{
+    background-color: white;
+    color: blue;
+    }
+    .main{
+        max-width: 1200px;
+        margin: auto;
+    } <div class="main">
+    <ul>
+        <li>
+            <a href="homes.html"><b>HOMES&nbsp;🏠</b></a>
+        </li>
+        <li>
+            <a href="roommate.html"><b>ROOM MATES&nbsp;👨‍👨‍👦</b></a>
+        </li>
+        <li >
+            <a href="biodata.html"><b>BIO DATA&nbsp;📝</b></a>
+        </li>
+        <li class="active">
+            <a href="images.html"><b>IMAGES&nbsp;📸</b></a>
+        </li>
+        <li>
+            <a href="videos.html"><b>VIDEOS&nbsp;📹</b></a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top:15px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: blue;
+}
+ul li.active a{
+    background-color: white;
+    color: blue;
+}
+
+
+
+.title{
+    font-size:50px;
+    color: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title:hover{
+    color:red;
+}
+
+
+
+body{
+    background-image:url(../roommate.png);
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: sans-serif;
+}
+room mates
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roommates</title>
+    <link rel="stylesheet" type="text/css" href="css/roommate.css">
+    <link rel="stylesheet"type="text/css"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="main">
+            <ul>
+                <li>
+                    <a href="homes.html"><b>HOMES&nbsp;🏠</b></a>
+                </li>
+                <li class="active">
+                    <a href="roommate.html"><i class="fa fa-users"></i>&nbsp;About Us</a>
+                </li>
+                <li>
+                    <a href="biodata.html"><b>BIO DATA&nbsp;📝</b></a>
+                </li>
+                <li>
+                    <a href="images.html"><b>IMAGES&nbsp;📸</b></a>
+                </li>
+                <li>
+                    <a href="videos.html"><b>VIDEOS&nbsp;📹</b></a>
+                </li>
+            </ul>
+</body>
+</html>
+
+size: 100% 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);

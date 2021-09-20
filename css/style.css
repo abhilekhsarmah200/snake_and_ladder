@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../living.jpg) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top:15px;
+    }
+    ul li{
+    display: inline-block;
+    }
+    ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    }
+    ul li a:hover{
+    background-color: white;
+    color:blue;
+    }
+    ul li.active a{
+    background-color: white;
+    color: blue;
+    }
+    .main{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .title{
+        size: 100% 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+.title h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+
+}
+.title h3 a:hover{
+        background-color: white;
+        color:black;
+}
+@media only screen and (min-width: 3750px){
+    ul li{
+        font-size: 9px;
+        }
+        .title h3 a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        
+        }
+
+}
+@media only screen and (max-width: 500px){
+    ul li{
+        font-size: 9px;
+        }
+
+}

@@ -1,0 +1,70 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../living.jpg) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+}
+ul{
+float: right;
+list-style-type: none;
+margin-top:15px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color:white;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.8s ease;
+}
+ul li a:hover{
+background-color: white;
+color:black;
+}
+ul li.active a{
+background-color: white;
+color: black;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+    .maindiv{
+        width: 70%;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-image: url('../image/br/1.jpg');
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 10px 5px white;
+        animation: 20s slider infinite;
+    }
+    @media only screen and (max-width:750px){
+    .hide{
+        display: none;
+    }
+    }
+    @keyframes slider{
+        0%{
+            background-image: url('../images/br/1.jpg');
+        }
+        20%{
+            background-image: url('../images/br/2.jpg');
+        }
+        40%{
+            background-image: url('../11.jpg');
+        }
+        60%{
+            background-image: url('../images/br/4.jpg');
+        } 
+        80%{
+            background-image: url('../images/br/5.jpg');
+        }
+        100%{
+            background-image: url('../images/br/1.jpg');
+        }
+    }
